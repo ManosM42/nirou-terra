@@ -43,6 +43,7 @@ export function Navbar() {
           </span>
         </Link>
 
+        {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-10">
           {links.map((l) => (
             <Link
@@ -57,10 +58,11 @@ export function Navbar() {
           ))}
         </nav>
 
+        {/* Desktop lang button + mobile hamburger */}
         <div className="flex items-center gap-4">
           <button
             onClick={() => setLang(lang === "en" ? "gr" : "en")}
-            className="text-xs tracking-[0.3em] border border-cream/40 rounded-full px-3 py-1.5 hover:bg-cream hover:text-espresso transition-all"
+            className="hidden md:block text-xs tracking-[0.3em] border border-cream/40 rounded-full px-3 py-1.5 hover:bg-cream hover:text-espresso transition-all"
           >
             {lang === "en" ? "EN · ΕΛ" : "ΕΛ · EN"}
           </button>
@@ -74,6 +76,7 @@ export function Navbar() {
         </div>
       </div>
 
+      {/* Mobile nav dropdown */}
       {open && (
         <nav className="md:hidden bg-espresso/95 border-t border-sand/20 px-6 py-6 flex flex-col gap-5 text-cream">
           {links.map((l) => (
@@ -86,6 +89,13 @@ export function Navbar() {
               {l.label}
             </Link>
           ))}
+          {/* Lang button inside mobile menu */}
+          <button
+            onClick={() => setLang(lang === "en" ? "gr" : "en")}
+            className="self-start text-xs tracking-[0.3em] border border-cream/40 rounded-full px-3 py-1.5 hover:bg-cream hover:text-espresso transition-all"
+          >
+            {lang === "en" ? "EN · ΕΛ" : "ΕΛ · EN"}
+          </button>
         </nav>
       )}
     </header>

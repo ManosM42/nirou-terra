@@ -18,10 +18,10 @@ export function Footer() {
             <p className="opacity-80">{tr("hours")}</p>
           </div>
           <div className="flex md:justify-end gap-5 items-start">
-            <a href="https://instagram.com" target="_blank" rel="noreferrer" className="hover:text-sand transition-colors">
+            <a href="https://www.instagram.com/nirouterra/" target="_blank" rel="noreferrer" className="hover:text-sand transition-colors">
               <Instagram size={22} />
             </a>
-            <a href="https://facebook.com" target="_blank" rel="noreferrer" className="hover:text-sand transition-colors">
+            <a href="https://www.facebook.com/nirouterra/?locale=el_GR" target="_blank" rel="noreferrer" className="hover:text-sand transition-colors">
               <Facebook size={22} />
             </a>
             <a

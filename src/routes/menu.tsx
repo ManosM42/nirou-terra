@@ -18,7 +18,7 @@ type Cat = {
 const menu: Cat[] = [
   {
     key: "cat_salads",
-    icon: "🥗",
+    icon: "",
     items: [
       {
         en: "Nirou Terra",
@@ -38,7 +38,7 @@ const menu: Cat[] = [
   },
   {
     key: "cat_snacks",
-    icon: "🥪",
+    icon: "",
     items: [
       {
         en: "Wholemeal Baguette",
@@ -114,7 +114,7 @@ const menu: Cat[] = [
   },
   {
     key: "cat_pasta",
-    icon: "🍝",
+    icon: "",
     items: [
       {
         en: "Prawn Linguini",
@@ -148,7 +148,7 @@ const menu: Cat[] = [
   },
   {
     key: "cat_share",
-    icon: "🫱",
+    icon: "",
     items: [
       {
         en: "Calamari",
@@ -182,7 +182,7 @@ const menu: Cat[] = [
   },
   {
     key: "cat_meat",
-    icon: "🥩",
+    icon: "",
     items: [
       {
         en: "Tagliatelle Rib Eye",
@@ -223,7 +223,7 @@ const menu: Cat[] = [
   },
   {
     key: "cat_desserts",
-    icon: "🍰",
+    icon: "",
     items: [
       {
         en: "Seasonal Fruit Salad for 2 / Seasonal Fruit Salad for 4",

@@ -25,7 +25,7 @@ export function Footer() {
               <Facebook size={22} />
             </a>
             <a
-              href="https://maps.google.com/?q=Kokkini+Hani+Crete"
+              href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d692.6303269248268!2d25.25038875655789!3d35.33134769627739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x149a5db9afc77407%3A0x2998ecf0cc3a46ee!2sNirou%20Terra!5e0!3m2!1sel!2sgr!4v1779872934922!5m2!1sel!2sgr"
               target="_blank"
               rel="noreferrer"
               className="hover:text-sand transition-colors"
